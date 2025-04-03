@@ -1,5 +1,5 @@
-# Download sequencing data for GSM8066751, split paired-end reads into separate files, 
-# skip technical reads, and output in FASTQ format.
+# --split-files : Download sequencing data for GSM8066751, split paired-end reads into separate files.
+# --skip-technical -F : skip technical reads, and output in FASTQ format.
 
 # TLE-HS
 fastq-dump GSM8066751 --split-files --skip-technical -F
